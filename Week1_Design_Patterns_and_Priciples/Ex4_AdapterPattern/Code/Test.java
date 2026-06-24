@@ -8,7 +8,6 @@ public class Test {
 
         cashfree.processPayment(5000);
 
-
         PaymentProcessor payu =
                 new PayUAdapter(
                         new PayUGateway());
