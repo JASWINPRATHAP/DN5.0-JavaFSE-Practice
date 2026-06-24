@@ -1,6 +1,9 @@
-// File: PdfDocumentFactory.java
-public class PdfDocumentFactory extends DocumentFactory {
-    public Document createDocument() {
-        return new PdfDocument();
+public class WordDocument implements Document {
+    public void open() {
+        System.out.println("Opening Word document...");
     }
 }
+
+
+
+

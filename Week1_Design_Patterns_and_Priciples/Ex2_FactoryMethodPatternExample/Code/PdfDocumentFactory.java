@@ -1,6 +1,5 @@
-// File: PdfDocument.java
-public class PdfDocument implements Document {
-    public void open() {
-        System.out.println("Opening PDF document...");
+public class PdfDocumentFactory extends DocumentFactory {
+    public Document createDocument() {
+        return new PdfDocument();
     }
 }

@@ -1,9 +1,6 @@
-public class WordDocument implements Document {
-    public void open() {
-        System.out.println("Opening Word document...");
+// File: WordDocumentFactory.java
+public class WordDocumentFactory extends DocumentFactory {
+    public Document createDocument() {
+        return new WordDocument();
     }
 }
-
-
-
-
