@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/SpringRest using SpringBoot 3/Ex1_SpringWebProject/Code/pom.xml" />
         <option value="$PROJECT_DIR$/SpringRest using SpringBoot 3/Ex2_LoadCountry/Code/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRest using SpringBoot 3/Ex4_RESTCountryWebService/Code/pom.xml" />
       </list>
     </option>
   </component>
