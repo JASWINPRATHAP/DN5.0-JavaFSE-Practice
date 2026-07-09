@@ -6,23 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LibraryManagement" />
         <module name="spring-learn" />
-        <module name="LibraryManagement (2)" />
-        <module name="LibraryManagement (1)" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="orm-learn" target="1.8" />
-      <module name="orm-learn (1)" target="1.8" />
-      <module name="orm-learn (2)" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="orm-learn" options="-parameters" />
-      <module name="orm-learn (1)" options="-parameters" />
-      <module name="orm-learn (2)" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>
   </component>
