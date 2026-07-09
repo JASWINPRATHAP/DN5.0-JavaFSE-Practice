@@ -9,6 +9,7 @@
         <module name="LibraryManagement" />
         <module name="LibraryManagement (2)" />
         <module name="orm-learn" />
+        <module name="orm-learn (1)" />
         <module name="LibraryManagement (1)" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="orm-learn" options="-parameters" />
+      <module name="orm-learn (1)" options="-parameters" />
     </option>
   </component>
 </project>
