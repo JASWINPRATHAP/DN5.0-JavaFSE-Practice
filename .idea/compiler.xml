@@ -9,6 +9,7 @@
         <module name="LibraryManagement" />
         <module name="spring-learn" />
         <module name="LibraryManagement (2)" />
+        <module name="account" />
         <module name="LibraryManagement (1)" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account" options="-parameters" />
       <module name="orm-learn" options="-parameters" />
       <module name="orm-learn (1)" options="-parameters" />
       <module name="orm-learn (2)" options="-parameters" />
