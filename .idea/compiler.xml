@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LibraryManagement" />
+        <module name="loan" />
         <module name="spring-learn" />
         <module name="LibraryManagement (2)" />
         <module name="account" />
@@ -22,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="account" options="-parameters" />
+      <module name="loan" options="-parameters" />
       <module name="orm-learn" options="-parameters" />
       <module name="orm-learn (1)" options="-parameters" />
       <module name="orm-learn (2)" options="-parameters" />
