@@ -3,6 +3,8 @@
   "private": true,
   "workspaces": [
     "1. ReactJS-HOL/Code",
-    "2.ReactJS-HOL/Code"
+    "2.ReactJS-HOL/Code",
+    "3.ReactJS-HOL/Code",
+    "4.ReactJS-HOL/Code"
   ]
 }
