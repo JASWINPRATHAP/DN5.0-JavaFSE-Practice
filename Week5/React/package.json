@@ -1,0 +1,8 @@
+{
+  "name": "react-labs",
+  "private": true,
+  "workspaces": [
+    "1. ReactJS-HOL/Code",
+    "2.ReactJS-HOL/Code"
+  ]
+}
